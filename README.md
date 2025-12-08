@@ -65,8 +65,8 @@ python scripts/mutcompute_llh.py -i example/data.csv -m example/wt_struct_mutcom
 
 ### Install MCP Server
 ```shell
-fastmcp install claude-code mcp-servers/mutcompute_mcp/src/mutcompute_mcp.py --python mcp-servers/mutcompute_mcp/env/bin/python
-fastmcp install gemini-cli mcp-servers/mutcompute_mcp/src/mutcompute_mcp.py --python mcp-servers/mutcompute_mcp/env/bin/python
+fastmcp install claude-code tool-mcps/mutcompute_mcp/src/mutcompute_mcp.py --python tool-mcps/mutcompute_mcp/env/bin/python
+fastmcp install gemini-cli tool-mcps/mutcompute_mcp/src/mutcompute_mcp.py --python tool-mcps/mutcompute_mcp/env/bin/python
 ```
 
 ### Call MCP service
