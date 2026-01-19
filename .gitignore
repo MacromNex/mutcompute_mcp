@@ -1,4 +1,3 @@
-example/
 data/
 results/
 __pycache__/
@@ -20,3 +19,5 @@ repo/
 env_py36/
 jobs/
 logs/
+*.npy
+*.zip
