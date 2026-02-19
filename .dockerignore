@@ -1,0 +1,40 @@
+# Environments (built inside Docker)
+env/
+env_py36/
+
+# Development artifacts
+.git
+.github
+.claude
+.pipeline
+.gemini
+.vscode
+
+# Output and temp files
+results/
+jobs/
+logs/
+tmp/
+claude_outputs/
+reports/
+*.out
+*.swp
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Data files (not needed for Docker build)
+data/
+examples/
+example/
+*.npy
+*.zip
+
+# Documentation
+*.md
+!repo/mutcompute/README.md
+
+# Tests and configs
+tests/
+configs/
+scripts/
